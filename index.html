@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste-sim</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+
+    <section class="head">
+        <div class="logo"><img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/logomarca.png" alt="logo sim internet">
+        </div>
+        <div class="slogan"><img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/slogan-crop.png" alt="SLOGAN SIM INTERNET"></div>
+    </section>
+
+    <div class="container">
+        <h2>BOLETO DISPONÍVEL PARA PAGAMENTO</h2>
+
+        <hr id="lineTitle">
+
+        <p id="name">Sr.(a). #cliente_razao#,</p>
+    <br>
+        <p>Avisamos que sua fatura está pronta para pagamento e segue
+            boleto em anexo com todo o detalhamento, acesse e confira os
+            detalhes para garantir tudo em ordem.
+        </p>
+   
+        <div id="warning">
+            <h3>Confira os dados para
+                pagamento
+            </h3>
+            <div id="warningBox"><img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/icon-alerta.png" alt="CAIXA DE AVISO"><p>Caso já tenha efetuado o pagamento do(s)
+                boleto(s), desconsiderar esta notificação.</p></div>
+        </div>
+        <table>
+            <tr>
+                <th><p class="pTiny">Beneficiário</p>
+                <p>Sim Internet</p>
+                </th>
+            </tr>
+            <tr>
+                <td><p class="pTiny">N° Contrato</p>
+                <p>12345</p></td>
+           
+                <td><p class="pTiny">Valor Origina</p>
+                <p>R$ 129,90</p></td>
+            
+                <td><p class="pTiny">Data Vencimento</p>
+                <p>10/12/2023</p></td>
+            </tr>
+        </table>
+
+        <div class="qrBox">
+            <div class="qr">
+                <img src="https://www.siminternet.com.br/wp-content/uploads/2024/01/qr-code-site.png" alt="QR CODE">
+                <p><b>Agora ficou mais fácil, rápido e seguro!</b></p><p>Use esse QR Code para pagar sua fatura
+                via Pix</p>
+            </div>
+            <div class="pixCode">
+                <p class="pTiny">Pix Copia e Cola</p>
+            <p>00020101021226740014br.gov.bcb.pix2552pix.ebanx.com/qr/v2/1A5CC6ECC0D3CFB0AF4A709086242BB55204000053039865802BR5925Uber do BrasilTecnologia6009SAO PAULO62070503***6304CAF3
+            </p>
+            </div>
+            <img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/cel-qr-code.png" alt="Smartohine">
+        </div>
+
+        <div class="digitavelBox">
+            <p>Caso o pagamento da fatura seja feito via linha digitável (boleto), o prazo
+            para reconhecimento do pagamento é de até 3 dias úteis.</p>
+            <div id="linhaBoleto">
+                <p class="pTiny">Linha Digitável (boleto)</p>
+                <br>
+                <p>07790.00116 01001.303339 85556.124311 9 00000000000200</p>
+            </div>
+        </div>
+        <hr class="lineOrange">
+
+        <section id="areaCLiente">
+            <h2 id="cliente">CONHEÇA A ÁREA DO CLIENTE!</h2>
+            <p>Descubra recursos projetados para
+                otimizar a sua experiência.
+            </p>
+            <button onclick="acessoCliente()">Acessar Agora</button>
+        </section>
+        <hr id="linWhite">
+        <img src="https://www.siminternet.com.br/wp-content/uploads/2024/01/fibrinha.png" alt="Mascote Fibrinha">
+
+        <div class="relationBox">
+            <h2>Relacionamento com o Cliente:</h2>
+            <p>Estamos aqui para proporcionar a você uma experiência
+                excepcional. Se surgir alguma dúvida ou necessidade, nossa
+                equipe está pronta para oferecer o suporte que você merece. Não
+                hesite em nos contatar; estamos comprometidos em superar suas
+                expectativas. <br><br>
+                Sua satisfação é nossa prioridade, e ansiamos por construir
+                relações duradouras contigo.
+                </p>
+
+            <a href="tel:08006420300"><img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/icon_telefone.png" alt="Telefone"><p>0800 642 0300</p></a>
+
+            <a href="https://api.whatsapp.com/send?phone=556332296900&text=Ol%C3%A1,%20tudo%20bem?%20Vim%20atrav%C3%A9s%20do%20e-mail.&app_absent=0"><img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/icon_whatsapp.png" alt="Whatsapp"><p>(63) 3229-6900</p></a>
+
+            <a href="mailto:sac@siminternet.com.br"><img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/icon_e-mail.png" alt=""><p>sac@siminternet.com.br</p></a>
+
+        </div>
+
+        <div class="redes">
+
+            <a href="https://www.instagram.com/siminternetto"><img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_instagram-pp.png" alt="Instagram"></a>
+
+            <a href="https://www.facebook.com/siminternetto"><img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_facebook-pp.png" alt="Facebook"></a>
+
+            <a href="https://twitter.com/siminternetto"><img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_twitter-pp.png" alt="Twitter"></a>
+
+            <a href="https://www.siminternet.com.br/"><img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_web-pp.png" alt="Site"></a>
+
+        </div>
+    </div>
+
+</body>
+<footer>
+    <img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/logomarca.png" alt="Logomarca">
+    <p> Quadra 106 Norte, Alameda 2, Lote 04, 10 andar, Edifício Palmas Business Center - Palmas - TO</p>
+
+    <div class="envio">
+        <button onclick="enviar()">Enviar</button>
+    </div>
+</footer>
+
+</html>
